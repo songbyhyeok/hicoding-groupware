@@ -29,7 +29,7 @@
 팀 내에서 GitHub 이슈 관리 시스템을 효율적으로 활용하기 위해 관련 메뉴얼을 공유했고, 각자 맡은 기능을 Branch를 통해 중점적으로 관리하면서 체계적이고 협동적인 개발이 가능하였다. 또한, 개발 중 발생하는 이슈 상황을 문서화하기 위해 Notion 페이지를 활용하여 각자가 공유하였다.
 
 ### 기획 과정(11.07 ~ 11.25)
-![Untitled (1)](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d81a8f3d-10cd-4415-a7cc-dc044b150194)
+![Untitled (1)](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d81a8f3d-10cd-4415-a7cc-dc044b150194)  
 <em> 위 그림은 hicoding 프로젝트 당시 Notion을 활용한 작업장이다. </em>
 
 사전 조사 및 설계 단계로서 1.프로젝트 주제 및 기능 분배 | 2.프로토타이핑.업무흐름도.ERD | 3.REST API 설계의 세 가지 단계로 분류 및 절차대로 수행해 나갔다. (1번 부분은 위에 설명을 했으므로 생략하고 2번 부분부터 시작하게 된다.)
