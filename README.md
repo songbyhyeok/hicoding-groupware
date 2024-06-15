@@ -3,7 +3,7 @@
 # 하이코딩 그룹웨어
 **URL** -> https://github.com/Hicoding-Groupware  
 **분류** -> 팀 프로젝트 (F-S 5명)  
-**날짜** -> 2023.11.07 -> 2023.12.22  
+**날짜** -> 2023.11.07 ~ 2023.12.22  
 **환경** -> React(ReduxThunk, Middleware), Spring(Boot, Security, DataJPA, Criteria), Deploy(AWS, Docker, Ubuntu), MySQL  
 **Demo** -> <a href="http://songbyhyeok-deploy.s3-website.ap-northeast-2.amazonaws.com" target="_blank"> (admin, 1234) </a>  
 
