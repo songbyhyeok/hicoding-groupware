@@ -1,7 +1,6 @@
 ![1](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d)
 
 # 하이코딩 그룹웨어
-**URL** -> https://github.com/Hicoding-Groupware  
 **분류** -> 팀 프로젝트 (F-S 5명)  
 **날짜** -> 2023.11.07 ~ 2023.12.22  
 **환경** -> React(ReduxThunk, Middleware), Spring(Boot, Security, DataJPA, Criteria), Deploy(AWS, Docker, Ubuntu), MySQL  
