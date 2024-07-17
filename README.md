@@ -4,8 +4,7 @@
 **분류** -> 팀 프로젝트 (F-S 5명)  
 **날짜** -> 2023.11.07 ~ 2023.12.22  
 **환경** -> React(ReduxThunk, Middleware), Spring(Boot, Security, DataJPA, Criteria), Deploy(AWS, Docker, Ubuntu), MySQL  
-**Demo** -> <a href="http://songbyhyeok-deploy.s3-website.ap-northeast-2.amazonaws.com" target="_blank"> (admin, 1234) </a>  
-
+**URL** -> <a href="https://github.com/orgs/Hicoding-Groupware/repositories" target="_blank"> </a>  
 ![image6](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/9d18f237-2589-4b48-8715-e4131f8d75e1)
 
 ## 소개
