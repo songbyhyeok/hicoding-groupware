@@ -10,13 +10,16 @@
 * 기술스택
   * Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
     Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
+* 담당 역할
+<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:35%; height:35%;" alt="image6">
 
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:65%; height:65%;" alt="image6">
+**직원관리(사원 생성, 사원조회)**  
+  * 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현
+    
+**게시판(공지사항)**  
+  * 게시판 쓰기.읽기.수정.삭제, 답글과 대댓글 그리고 조회수 처리와 좋아요 기능 구현
 
-* **직원관리(사원 생성, 사원조회)**
-  * 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현  
-* **게시판(공지사항)**
-  * 게시판 쓰기.읽기.수정.삭제, 답글과 대댓글 그리고 조회수 처리와 좋아요 기능 구현  
+---
 
 ## 기획
 https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
