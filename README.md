@@ -23,7 +23,7 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 
 ## 목업
 <details>
-<summary>여기를 눌러주세요</summary>
+<summary>열기/닫기</summary>
 <div markdown="1">       
 
 ![사원 생성](https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db)
@@ -44,7 +44,7 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 
 ## ERD
 <details>
-<summary>여기를 눌러주세요</summary>
+<summary>열기/닫기</summary>
 <div markdown="1">       
 
 ![image17](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/3523e0f4-e5c2-4d5f-aec3-1b76b522402f)
@@ -54,7 +54,7 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 
 ## API 문서
 <details>
-<summary>여기를 눌러주세요</summary>
+<summary>열기/닫기</summary>
 <div markdown="1">       
 
 ![Untitled (4)](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6563d8a5-5a17-4818-9755-fd416dfb2e8a)
@@ -62,15 +62,22 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 </div>
 </details>
 
-## 기능(11.25 ~ 12.10)
-### AWS, Docker 활용 배포
+## 아키텍쳐
+<details>
+<summary>열기/닫기</summary>
+<div markdown="1">       
+
 ![final-hicoding-Page-1 drawio](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d8e673d8-db29-4172-a6f6-649f7790e0e0)
-<em> 배포된 Groupware System Architecture </em>
+
+- 서버는 EC2의 Ubuntu에 SSH를 통해 Docker Engine을 설치한 후, Docker Image에 저장된 Back Build 파일을 Docker Cotainer를 통해 구동시키는 방식이고, Client는 Front Build 파일을 S3 버킷에 업로드하여 호스팅 상태로 만들고, 사용자가 Endpoint를 통해 접속하게 된다.
+
+</div>
+</details>
+
+## 기능(11.25 ~ 12.10)
 
 #### 간략 설명
-  - 서버는 EC2의 Ubuntu에 SSH를 통해 Docker Engine을 설치한 후, Docker Image에 저장된 Back Build 파일을 Docker Cotainer를 통해 구동시키는 방식이고, Client는 Front Build 파일을 S3 버킷에 업로드하여 호스팅 상태로 만들고, 사용자가 Endpoint를 통해 접속하게 된다.
-
-**배포 이슈**
+**AWS 배포 이슈**
 - 정적 웹사이트 호스팅 후 서버 연동이 안되는 상황
   - 서버 구동이 안됐다는 것은 Docker 컨테이너에서 구동되지 않은 걸로 간주, Docker 메커니즘 부분을 다시 학습한 후 ‘docker run’ 명령어를 통해 해결
  
