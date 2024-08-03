@@ -1,95 +1,68 @@
-# 하이코딩 그룹웨어
-![1](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d)
 
-## 목차
-- [1. 개요](#1-개요)
-  - [분류](#분류)
-  - [개발 기간](#개발-기간)
-  - [환경](#환경)
-  - [Team URL](#Team-URL)
-  - [소개](#소개)
-- [2. 기획](#2-기획)
-  - [프로그램 개발](#프로그램-개발)
-  - [이슈 관리](#이슈-관리)
-  - [과정(11.07 ~ 11.25)](#과정1107--1125)
-- [3. 기능(11.25 ~ 12.10)](#3-기능1125--1210)
-  - [AWS, Docker 활용 배포](#aws-docker-활용-배포)
-  - [답글, 대댓글 구현(Tree 형태로 재구축 후 DFS-Stack 처리)](#답글-대댓글-구현tree-형태로-재구축-후-dfs-stack-처리)
-  - [조회수. 좋아요 구현](#조회수-좋아요-구현)
-  - [사원 생성 및 상세조회](#사원-생성-및-상세조회)
-  - [게시판과 댓글 CRUD 구현 (React(Redux, Thunk), RestAPI CRUD)](#게시판과-댓글-crud-구현-reactredux-thunk-restapi-crud)
-- [4. 회고](#4-회고)
-  - [협업과 품질 향상을 위한 노력](#협업과-품질-향상을-위한-노력)
-  - [알고리즘 문제 해결 경험](#알고리즘-문제-해결-경험)
+<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d" style="width:70%; height:70%;" alt="image6">
 
-## 1. 개요
-### 분류
-    팀 프로젝트 (F-S 5명)
-### 개발 기간
-    2023.11.07 ~ 2023.12.22
-### 환경
-    Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
-    Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
-### Team URL
-  <a href="https://github.com/orgs/Hicoding-Groupware/repositories" target="_blank">https://github.com/orgs/HicodingGroupware/repositories</a>
-
-### 소개
+## 하이코딩 그룹웨어
 공.사교육의 성장으로 이에 따른 증대된 학원들의 시스템 관리 어려움을 그룹웨어 도입으로 해소할 수 있다 판단. 또한, 4차 산업 IT 시장의 유망성을 고려하여 이를 목표로 프로젝트 도입. 해당 프로그램은 인사, 사내, 업무 기능의 시스템 중심으로 구성되어 있고, 유기적 협업 및 관리를 통해 효율적 업무 처리와 높은 생산성을 기대할 수 있다.
 
-## 2. 기획
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:60%; height:60%;" alt="image6">
+* 팀 프로젝트: (F-S 5명)
+* 개발 기간: 2023.11.07 ~ 2023.12.22
+* Team URL: https://github.com/Hicoding-Groupware/hicoding-back
+* 기술스택
+  * Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
+    Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
 
-**직원관리(사원 생성, 사원조회)** 에서 회원가입 일부 시스템인 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현  
-**게시판(공지사항)** 에서 게시판 쓰기.읽기.수정.삭제, 답글과 대댓글 그리고 조회수 처리와 좋아요 기능 구현  
+<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:65%; height:65%;" alt="image6">
 
-### 프로그램 개발
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/83997b82-e226-42b5-9d9b-2a012d0456c0" style="width:100%; height:100%;" alt="image6">
+* **직원관리(사원 생성, 사원조회)**
+  * 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현  
+* **게시판(공지사항)**
+  * 게시판 쓰기.읽기.수정.삭제, 답글과 대댓글 그리고 조회수 처리와 좋아요 기능 구현  
 
-### 이슈 관리
-![12](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/0597c3fa-f366-4bfe-b990-16f555f10b40)
-<em> Github Issue Role 시스템 메뉴얼과 Branch에 Issue 관리와 상태를 기록한 그림이다. </em>  
+## 기획
+https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 
-![13](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/efe4bbf0-82e3-461f-be72-28bf417361df)
-<em> Notion 페이지에 작성된 Issue 기록들 </em>  
+## 목업
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
 
-팀 내에서 GitHub 이슈 관리 시스템을 효율적으로 활용하기 위해 관련 메뉴얼을 공유했고, 각자 맡은 기능을 Branch를 통해 중점적으로 관리하면서 체계적이고 협동적인 개발이 가능하였다. 또한, 개발 중 발생하는 이슈 상황을 문서화하기 위해 Notion 페이지를 활용하여 각자가 공유하였다.
+![사원 생성](https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db)
+![직원관리 상세조회](https://github.com/user-attachments/assets/d861e401-24b7-40a7-ad8b-7909e8305dad)
+![직원관리 생성](https://github.com/user-attachments/assets/8753db2a-58fb-49ff-a8e8-0d3f26b7ad03)
+![공지사항 게시글](https://github.com/user-attachments/assets/4a134731-60f0-4324-8dc5-4cc6c31956b1)
+![공지사항 게시판 글쓰기](https://github.com/user-attachments/assets/d78e1f41-6ee2-4318-855b-5720b35a8024)
+![공지사항 게시판 글쓰기-1](https://github.com/user-attachments/assets/0a61721e-fd8f-48d1-be23-d81c4b13d7bc)
+![공지사항 게시판 글쓰기-2](https://github.com/user-attachments/assets/01ea1780-93c2-4be5-a2e9-169fd975fe10)
+![공지사항 게시판](https://github.com/user-attachments/assets/66ed9d92-a4f8-4b53-9989-8f8db0ceb547)
+![공지사항 게시판-1](https://github.com/user-attachments/assets/f44a2ea0-997d-474c-a688-d11777e54c3b)
+![공지사항 게시판-2](https://github.com/user-attachments/assets/c1b80d47-0e41-4392-aee2-a8a262febc3d)
+![공지사항 게시판-3](https://github.com/user-attachments/assets/20a28ac4-8f42-496c-a32b-da12a0a957db)
+![공지사항 게시판-4](https://github.com/user-attachments/assets/b6cfac52-a6b9-499e-9e21-a7185e552f6c)
 
-### 과정(11.07 ~ 11.25)
-![Untitled (1)](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d81a8f3d-10cd-4415-a7cc-dc044b150194)  
-<em> 위 그림은 hicoding 프로젝트 당시 Notion을 활용한 작업장이다. </em>  
+</div>
+</details>
 
-사전 조사 및 설계 단계로서 1.프로젝트 주제 및 기능 분배 | 2.프로토타이핑.업무흐름도.ERD | 3.REST API 설계의 세 가지 단계로 분류 및 절차대로 수행해 나갔다. (1번 부분은 위에 설명을 했으므로 생략하고 2번 부분부터 시작하게 된다.)
-
-#### 2. 프로토타이핑 / 업무흐름도 / ERD
-![5](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d623abde-94e8-41ce-aa60-c40c8808a989)
-<em> Figma, FigJam Tool을 활용하여 설계된 프로토타이핑과 순서도 </em>  
-
-각자 맡은 기능에 대한 요구 사항 명세서를 작성한 후, 이를 바탕으로 프로토타이핑과 순서도를 함께 도식화하였다. 그 결과 빠르고 정확한 소통과 개발 환경에 산출물들을 바로 코드화하여 높은 생산성을 달성할 수 있었다.
+## ERD
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
 
 ![image17](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/3523e0f4-e5c2-4d5f-aec3-1b76b522402f)
-<em> 요구사항 수집과 분석 및 개념적, 논리적 모델링 단계 과정을 거쳐 완성된 ERD </em>  
 
-프로젝트 주제와 기능 분배 이후, 각자의 기능에 대한 요구사항을 수집 및 분석한 후, 회의를 통해 개념적 데이터 모델링을 수행하였다. 이 과정에서 카디널리티 개념을 활용하여 모델링 연관관계를 구축 단계를 거쳐, 논리적 모델링을 위한 데이터 정형화 및 정규화 과정을 거쳤고, 마지막으로 물리적 모델링 단계에서 MySql과 사상시켰다.
+</div>
+</details>
 
-##### DA#Modeler5 Tool Query Script 기여
-- 본 프로그램에서 논.물리 모델링과 Query Script 커스터마이징 생성을 통해 팀 생산성을 높일 수 있었다.
-- 문제점을 인식 및 개선안을 도출하는 것은 중요한 일이라고 생각했다. 기존의 방식으로는 체계적인 관리가 이루어지지 않아, 쿼리 작성이 형식적으로 이루어졌으며 무분별한 테이블 삭제로 인해 PK의 무결성 문제가 발생했다. 개발자로서 하나의 목표는 생산성 향상과 사용자 경험 개선이었다. 따라서 팀 프로젝트에서 결과물도 중요하지만, 과정에서 발생하는 사소한 불편한 문제들도 해결 및 향상시키는 경험이 목표를 달성하는 데 도움이 될 것이라고 판단하여 이를 실행하게 되었다.  
+## API 문서
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
 
-**논리 모델링에 기여한 점**  
-<img src = https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/74a5acfd-18fa-4808-b999-e57d3a7323d0 width = "50%" height = "50%">  
-이전 프로젝트나 타 프로젝트 작업 과정을 보면 산출물 업로드를 단순 ↓로만 하기 때문에 관리되지 않는다는 것을 인지하였고, 형상관리 Tool을 고려하긴 했으나, 기존 Notion 방식에서 날짜 기입을 통해 단점을 보완하였다.
-
-**물리 모델링에 기여한 점**  
-<img src = https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/215cda91-74c7-45dc-b6bd-bc080be76925 width = "50%" height = "50%">  
-기존 물리 모델링은 Create And Drop Query만 공유하였지만, 해당 프로그램의 DDL 옵션을 통해 Create Table, Drop Table 등 다양한 Script를 생산하였다. 그리고 물리 모델링 옵션을 통해 얻은 성과 중 가장 큰 것은 Increment 설정이다. 무분별한 삭제로 Increment 시작값이 0부터 아니게 되거나, 특정 시작 위치에서 생성이 필요할 때가 있어 이를 TIP란에 자세히 기입해 두었다. 그리고 마지막으로 직원 정보를 랜덤 생성 알고리즘을 통해 Dummy Query에 기여하였다.
-
-#### 3. REST API 설계
 ![Untitled (4)](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6563d8a5-5a17-4818-9755-fd416dfb2e8a)
-<em> Notion Tool을 활용한 REST API 문서화 산출물 </em>  
 
-REST API를 설계할 때 일관성과 명확성을 검토 및 개선함으로써 해당 API의 시스템을 보다 더 이해할 수 있었고, 팀원간 효율적인 의사소통과 협업 능력을 향상시켰다.
+</div>
+</details>
 
-## 3. 기능(11.25 ~ 12.10)
+## 기능(11.25 ~ 12.10)
 ### AWS, Docker 활용 배포
 ![final-hicoding-Page-1 drawio](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/d8e673d8-db29-4172-a6f6-649f7790e0e0)
 <em> 배포된 Groupware System Architecture </em>
@@ -163,11 +136,5 @@ REST API를 설계할 때 일관성과 명확성을 검토 및 개선함으로�
 
 주어진 두 주기인 React의 Redux와 Thunk, 그리고 Spring과 Restful API 시스템을 연동하여 게시판과 댓글 CRUD 기능을 구현. 클라이언트 측에서는 Redux를 사용하여 웹의 데이터 상태를 저장 및 관리하고, Thunk는 Dispatch 역할 및 비동기 작업 처리를 담당. Restful API는 양 측 간의 데이터 교환 및 표준화 역할을 수행
 
-## 4. 회고
-두 번째 프로젝트다 보니 전보다 더 잘 소화해야만 했고, 기존 Thymeleaf을 사용한 통합된 환경이 아닌 리액트 프레임워크를 활용한 비동기 통신으로 개발을 진행해야 됐기 때문에 기간 내 수행 속도를 올려야만 했고, 부담감이 상당했었다. 
-    
-### 협업과 품질 향상을 위한 노력
-정형화된 물리적 모델을 통한 스크립트의 무결성과 생산성을 향상시키기 위해 물리적 도구의 다양한 옵션을 연구하고 접목한 결과, 팀 내 협업이 촉진되어 신뢰성과 전반적인 퀄리티가 향상되었다. 이를 통해 상호 의존성을 줄이고 주도적인 행위를 통해 유연성과 적응력을 높일 수 있었다. 차후 협업 프로젝트 시 개발 외 문서화 및 대화 방식에 있어 효율적인 방안에 대해 초점을 두고 진행하면 좋겠다는 생각이 들었다.
-    
-### 알고리즘 문제 해결 경험
-답글과 대댓글 구현 과정에서 쿼리를 통한 조회 방식과 알고리즘 설계를 통한 가공 방식 두 가지 방법이 있었는데, 익숙한 알고리즘 설계 방식을 채택하여 비용을 줄였다. 하지만 Entity 모델링 설계부터 계층구조화 그리고 지원되지 않는 페이징 알고리즘을 직접 구현해야 하는 변수와 DFS 재귀 방식으로 데이터를 읽어들였더니 각 계층의 부모를 역으로 출력해야 하는 문제는 풀리지 않아 골치 아팠다. 그러나 지하철에서 DFS-stack 방식을 통해 처리하면 된다는 사실을 갑자기 깨닫고 이를 실제 접목시켜 터득했던 경험. 지금 와서 생각해 보면 개발자는 역시 끙끙 앓다가 무의식적으로 힌트를 제공받고 이를 시도하여 해결하는 성취감에 한다는 것을 새삼 다시 깨닫게 된다.
+## 회고
+https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%ED%9A%8C%EA%B3%A0
