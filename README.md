@@ -26,9 +26,6 @@
 ## 개발 기간
 <img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/83997b82-e226-42b5-9d9b-2a012d0456c0" style="width:100%; height:100%;" alt="image6">
 
-## 기획
-https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
-
 ## 목업
 <details>
 <summary>열기/닫기</summary>
