@@ -19,8 +19,8 @@
   * Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
     Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
 * Teamwork
-  * github: [Link](https://github.com/Hicoding-Groupware/hicoding-back)
-  * notion: [Link](https://www.notion.so/songbyhyeok/hook-7911c64b8d394009b49804a39a0d302c?pvs=4)
+  * github: [link](https://github.com/Hicoding-Groupware/hicoding-back)
+  * notion: [link](https://www.notion.so/songbyhyeok/hook-7911c64b8d394009b49804a39a0d302c?pvs=4)
     
 ---
 
@@ -102,7 +102,7 @@
 </details>
 
 ## 기술적 이슈 및 해결과정 (11.25 ~ 12.10)
-[Link](https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9D%B4%EC%8A%88-%EB%B0%8F-%ED%95%B4%EA%B2%B0%EA%B3%BC%EC%A0%95)
+[link](https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9D%B4%EC%8A%88-%EB%B0%8F-%ED%95%B4%EA%B2%B0%EA%B3%BC%EC%A0%95)
 
 ## 회고
-[Link](https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%ED%9A%8C%EA%B3%A0)
+[link](https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%ED%9A%8C%EA%B3%A0)
