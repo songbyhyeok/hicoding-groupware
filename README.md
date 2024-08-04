@@ -1,7 +1,6 @@
 ## 하이코딩 그룹웨어
-
 <p align="center">
-  <img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d" style="width:70%; height:70%;" alt="image6">
+  <img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d" style="width:100%" alt="image6">
 </p>
 
 <div align="center">
@@ -26,7 +25,9 @@
 ---
 
 ## 담당 역할
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:45%; height:40%;" alt="image6">
+<p align="center">
+  <img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:70%; height:70%;" alt="image6">
+</p>
 
 **직원관리(사원 생성, 사원조회)**  
   * 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현
