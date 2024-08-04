@@ -87,7 +87,7 @@
 </div>
 </details>
 
-## 아키텍쳐
+## 아키텍처
 <details>
 <summary>열기/닫기</summary>
 <div markdown="1">       
