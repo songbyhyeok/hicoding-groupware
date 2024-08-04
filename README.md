@@ -10,8 +10,11 @@
 * 기술스택
   * Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
     Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
-* 담당 역할
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:35%; height:35%;" alt="image6">
+    
+---
+
+## 담당 역할
+<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/1bfb1b41-9b76-4bc4-9a34-48876d1b6ae5" style="width:45%; height:40%;" alt="image6">
 
 **직원관리(사원 생성, 사원조회)**  
   * 사원 ID 발급 기능을 통한 사원 생성, 옵션 선택 항목 기준으로 사용자 정보를 조회할 수 있는 사원 조회 기능 구현
@@ -19,7 +22,8 @@
 **게시판(공지사항)**  
   * 게시판 쓰기.읽기.수정.삭제, 답글과 대댓글 그리고 조회수 처리와 좋아요 기능 구현
 
----
+## 개발 기간
+<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/83997b82-e226-42b5-9d9b-2a012d0456c0" style="width:100%; height:100%;" alt="image6">
 
 ## 기획
 https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
@@ -29,7 +33,6 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 <summary>열기/닫기</summary>
 <div markdown="1">       
 
-![사원 생성](https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db)
 ![직원관리 상세조회](https://github.com/user-attachments/assets/d861e401-24b7-40a7-ad8b-7909e8305dad)
 ![직원관리 생성](https://github.com/user-attachments/assets/8753db2a-58fb-49ff-a8e8-0d3f26b7ad03)
 ![공지사항 게시글](https://github.com/user-attachments/assets/4a134731-60f0-4324-8dc5-4cc6c31956b1)
@@ -41,6 +44,7 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 ![공지사항 게시판-2](https://github.com/user-attachments/assets/c1b80d47-0e41-4392-aee2-a8a262febc3d)
 ![공지사항 게시판-3](https://github.com/user-attachments/assets/20a28ac4-8f42-496c-a32b-da12a0a957db)
 ![공지사항 게시판-4](https://github.com/user-attachments/assets/b6cfac52-a6b9-499e-9e21-a7185e552f6c)
+![사원 생성](https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db)
 
 </div>
 </details>
@@ -51,6 +55,16 @@ https://github.com/songbyhyeok/2023-hicoding-groupware/wiki/%EA%B8%B0%ED%9A%8D
 <div markdown="1">       
 
 ![image17](https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/3523e0f4-e5c2-4d5f-aec3-1b76b522402f)
+
+</div>
+</details>
+
+## 플로우 차트
+<details>
+<summary>열기/닫기</summary>
+<div markdown="1"> 
+
+<img width="500" alt="Untitled (1)" src="https://github.com/user-attachments/assets/793ad961-9ad4-4a30-bd70-007c0d55ac2e">
 
 </div>
 </details>
