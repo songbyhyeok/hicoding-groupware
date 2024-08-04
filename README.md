@@ -1,8 +1,18 @@
-
-<img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d" style="width:70%; height:70%;" alt="image6">
-
 ## 하이코딩 그룹웨어
+
+<p align="center">
+  <img src="https://github.com/songbyhyeok/2023-HicodingGroupware/assets/63230518/6c373e92-872b-4fec-9306-0f575ebf399d" style="width:70%; height:70%;" alt="image6">
+</p>
+
+<div align="center">
+  
+  ### IT 개발 교육 플랫폼
+  
+</div>
+
 공.사교육의 성장으로 이에 따른 증대된 학원들의 시스템 관리 어려움을 그룹웨어 도입으로 해소할 수 있다 판단. 또한, 4차 산업 IT 시장의 유망성을 고려하여 이를 목표로 프로젝트 도입. 해당 프로그램은 인사, 사내, 업무 기능의 시스템 중심으로 구성되어 있고, 유기적 협업 및 관리를 통해 효율적 업무 처리와 높은 생산성을 기대할 수 있다.
+
+---
 
 * 팀 프로젝트: (F-S 5명)
 * 개발 기간: 2023.11.07 ~ 2023.12.22
