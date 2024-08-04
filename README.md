@@ -16,11 +16,12 @@
 
 * 팀 프로젝트: (F-S 5명)
 * 개발 기간: 2023.11.07 ~ 2023.12.22
-* Teamwork Github: [Link](https://github.com/Hicoding-Groupware/hicoding-back)
-* Teamwrok Notion: [Link](https://www.notion.so/songbyhyeok/hook-7911c64b8d394009b49804a39a0d302c?pvs=4)
 * 기술스택
   * Spring, JPA, MyBatis, Restful, Dbms(Oracle, MySQL), Deploy(AWS, Ubuntu), React  
     Git/Github, PostMan, DA#Modeler, SQL Developer, MySQL Workbench, Slack, Figma
+* Teamwork
+  * github: [Link](https://github.com/Hicoding-Groupware/hicoding-back)
+  * notion: [Link](https://www.notion.so/songbyhyeok/hook-7911c64b8d394009b49804a39a0d302c?pvs=4)
     
 ---
 
