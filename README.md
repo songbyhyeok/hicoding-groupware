@@ -62,7 +62,7 @@
 <summary>열기/닫기</summary>
 <div markdown="1"> 
 
-<img width="500" alt="Untitled (1)" src="https://github.com/user-attachments/assets/793ad961-9ad4-4a30-bd70-007c0d55ac2e">
+<img width="3127" alt="Untitled (2)" src="https://github.com/user-attachments/assets/acae5ee4-5089-4569-9d6b-495154d642d3">
 
 </div>
 </details>
