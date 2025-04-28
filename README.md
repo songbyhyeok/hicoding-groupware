@@ -53,27 +53,27 @@
 
 ## 목업
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/d861e401-24b7-40a7-ad8b-7909e8305dad" width="330" title="직원관리 상세조회">
-  <img src="https://github.com/user-attachments/assets/8753db2a-58fb-49ff-a8e8-0d3f26b7ad03" width="330" title="직원관리 생성">
-  <img src="https://github.com/user-attachments/assets/4a134731-60f0-4324-8dc5-4cc6c31956b1" width="330" title="공지사항 게시글">
+  <img src="https://github.com/user-attachments/assets/d861e401-24b7-40a7-ad8b-7909e8305dad" width="300" title="직원관리 상세조회">
+  <img src="https://github.com/user-attachments/assets/8753db2a-58fb-49ff-a8e8-0d3f26b7ad03" width="300" title="직원관리 생성">
+  <img src="https://github.com/user-attachments/assets/4a134731-60f0-4324-8dc5-4cc6c31956b1" width="300" title="공지사항 게시글">
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/d78e1f41-6ee2-4318-855b-5720b35a8024" width="330" title="공지사항 게시판 글쓰기">
-  <img src="https://github.com/user-attachments/assets/0a61721e-fd8f-48d1-be23-d81c4b13d7bc" width="330" title="공지사항 게시판 글쓰기 - 1">
-  <img src="https://github.com/user-attachments/assets/01ea1780-93c2-4be5-a2e9-169fd975fe10" width="330" title="공지사항 게시판 글쓰기 - 2">
+  <img src="https://github.com/user-attachments/assets/d78e1f41-6ee2-4318-855b-5720b35a8024" width="300" title="공지사항 게시판 글쓰기">
+  <img src="https://github.com/user-attachments/assets/0a61721e-fd8f-48d1-be23-d81c4b13d7bc" width="300" title="공지사항 게시판 글쓰기 - 1">
+  <img src="https://github.com/user-attachments/assets/01ea1780-93c2-4be5-a2e9-169fd975fe10" width="300" title="공지사항 게시판 글쓰기 - 2">
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/66ed9d92-a4f8-4b53-9989-8f8db0ceb547" width="330" title="공지사항 게시판">
-  <img src="https://github.com/user-attachments/assets/f44a2ea0-997d-474c-a688-d11777e54c3b" width="330" title="공지사항 게시판 - 1">
-  <img src="https://github.com/user-attachments/assets/c1b80d47-0e41-4392-aee2-a8a262febc3d" width="330" title="공지사항 게시판 - 2">
+  <img src="https://github.com/user-attachments/assets/66ed9d92-a4f8-4b53-9989-8f8db0ceb547" width="300" title="공지사항 게시판">
+  <img src="https://github.com/user-attachments/assets/f44a2ea0-997d-474c-a688-d11777e54c3b" width="300" title="공지사항 게시판 - 1">
+  <img src="https://github.com/user-attachments/assets/c1b80d47-0e41-4392-aee2-a8a262febc3d" width="300" title="공지사항 게시판 - 2">
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/20a28ac4-8f42-496c-a32b-da12a0a957db" width="330" title="공지사항 게시판 - 3">
-  <img src="https://github.com/user-attachments/assets/b6cfac52-a6b9-499e-9e21-a7185e552f6c" width="330" title="공지사항 게시판 - 4">
-  <img src="https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db" width="330" title="사원 생성">
+  <img src="https://github.com/user-attachments/assets/20a28ac4-8f42-496c-a32b-da12a0a957db" width="300" title="공지사항 게시판 - 3">
+  <img src="https://github.com/user-attachments/assets/b6cfac52-a6b9-499e-9e21-a7185e552f6c" width="300" title="공지사항 게시판 - 4">
+  <img src="https://github.com/user-attachments/assets/86b57f60-bee7-4022-98bd-cb14279378db" width="300" title="사원 생성">
 </p>
 
 <br>
